@@ -1,0 +1,60 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+
+
+/* style  */
+
+.cont {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.cont.one {
+    background-color: #ff0000;
+}
+
+.cont.two {
+    background-color: #008000;
+}
+
+.cont.three {
+    background-color: #ffff00;
+}
+
+.cont img {
+    width: 40rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title {
+    width: 40rem;
+    text-align: center;
+    color: #ffff00;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.cont.three .title {
+    color: #008000;
+}
+
+
