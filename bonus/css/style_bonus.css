@@ -34,7 +34,7 @@ html {
 }
 
 .cont img {
-    width: 40rem;
+    width: 50rem;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -55,6 +55,39 @@ html {
 
 .cont.three .title {
     color: #008000;
+}
+
+
+
+/* bonus */
+
+ .links {
+     z-index: 999;
+    position:fixed;
+    top: 2rem;
+    right: 1rem;
+
+}
+
+a {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+a:focus {
+    background-color: gray;
 }
 
 
